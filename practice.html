@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .button {
+            color : rgb(0, 113,113);
+        }
+        .button:hover{
+            color: brown;
+        }
+        .button-price{
+            color: rgb(0, 118,0);
+        }
+        .button-cart{
+            background-color: rgb(255, 216,20);
+            border-radius: 15PX;
+            color: BLACK;
+            border :none;
+            border-width: 3px;
+            margin-right: 5px;
+            margin-left: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            transition: opacity 0.15s,
+            color 1s;
+            box-shadow:5px 5px 5px  rgba(0, 0,0, 0.15);
+        }
+
+        .button-cart:hover{
+            background-color: black;
+            color: yellow;
+            opacity: 0.8;
+        }
+        .button-cart:active{
+                opacity: 0.5;
+            }
+        .button-bye{
+            background-color: rgb(255, 164,28);
+            border-radius: 15PX;
+            color: BLACK;
+            border :none;
+            border-width: 3px;
+            height: 27px;
+            transition: background-color 0.15s,
+            color 0.15s;
+            transition: box-shadow 0.15s;
+            
+        }
+        .button-bye:hover{
+            box-shadow: 5px 5px 10px rgb(46, 28, 28);
+            background-color: black;
+            color: orangered;
+        }
+        .button-bye:active{
+            opacity: 0.5;
+        }
+    </style>
+    <h3 class="button"><u>Back to Amazon</u></h3>
+    <h1>Nike Black Running Shoes</h1>
+    <h3 class="button-price">$39 - in stock.</h3>
+    <h4>Free delivery tomorrow.</h4>
+    <button class="button-cart">Add to cart</button>
+    <button class="button-bye">Buy now</button>
+</body>
+</html> 
